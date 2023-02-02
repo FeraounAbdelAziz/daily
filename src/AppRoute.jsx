@@ -1,6 +1,6 @@
 import React from "react";
 import { MantineProvider, ColorSchemeProvider } from "@mantine/core";
-import { Route, HashRouter as Router, Routes } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
 import App from "./App";
 import { useHotkeys, useLocalStorage } from "@mantine/hooks";
 import Informatique from "./specialites/Informatique";
