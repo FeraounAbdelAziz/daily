@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/daily/static/js/main.dc1afa3e.js",
-    "index.html": "/daily/index.html",
-    "main.dc1afa3e.js.map": "/daily/static/js/main.dc1afa3e.js.map"
+    "main.js": "/static/js/main.dc1afa3e.js",
+    "index.html": "/index.html",
+    "main.dc1afa3e.js.map": "/static/js/main.dc1afa3e.js.map"
   },
   "entrypoints": [
     "static/js/main.dc1afa3e.js"
