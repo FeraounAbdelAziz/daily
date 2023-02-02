@@ -24,7 +24,7 @@ function AppRoute() {
   useHotkeys([["mod+J", () => toggleColorScheme()]]);
   return (
     <>
-      <HashRouter>
+          <HashRouter>
         <ColorSchemeProvider
           colorScheme={colorScheme}
           toggleColorScheme={toggleColorScheme}
@@ -39,27 +39,27 @@ function AppRoute() {
             <ToggleButton />
             <Routes>
               <Route path="/daily" element={<App />} />
-              <Route path="/Informatique" element={<Informatique />} />
+              <Route path="/daily/Informatique" element={<Informatique />} />
               <Route
-                path="/Informatique/Algorithmique_1"
+                path="/daily/Informatique/Algorithmique_1"
                 element={<Algorithm />}
               />
               <Route
-                path="/Informatique/Algorithm/DownloadPage"
+                path="/daily/Informatique/Algorithm/DownloadPage"
                 element={<DownloadPage />}
               />
 
               <Route
-                path="/Science-et-technologie"
+                path="/daily/Science-et-technologie"
                 element={<ScienceEtTechnologie />}
               />
-              <Route path="/Physique" element={<Physique />} />
-              <Route path="/Electronique" element={<Electronique />} />
+              <Route path="/daily/Physique" element={<Physique />} />
+              <Route path="/daily/Electronique" element={<Electronique />} />
               <Route
-                path="/Telecommunications"
+                path="/daily/Telecommunications"
                 element={<Telecommunications />}
               />
-              <Route path="/Biologie" element={<Biologie />} />
+              <Route path="/daily/Biologie" element={<Biologie />} />
             </Routes>
             <Footer />
           </MantineProvider>
