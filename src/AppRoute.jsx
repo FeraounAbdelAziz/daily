@@ -38,7 +38,7 @@ function AppRoute() {
           >
             <ToggleButton />
             <Routes>
-              <Route index element={<App />} />
+              <Route path="/daily" element={<App />} />
               <Route path="/Informatique" element={<Informatique />} />
               <Route
                 path="/Informatique/Algorithmique_1"
