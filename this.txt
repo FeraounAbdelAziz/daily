@@ -1,0 +1,4 @@
+"homepage": "https://FeraounAbdelAziz.github.io/univpdf",
+
+"predeploy" :"npm run build",
+    "deploy" : "gh-pages -d build",
