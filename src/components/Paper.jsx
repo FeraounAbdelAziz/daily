@@ -7,7 +7,7 @@ function ContentBox() {
         shadow="lg"
         p="xl"
         component="a"
-        href="/daily/Informatique"
+        href="/Informatique"
         sx={{
           "&:hover": {
             boxShadow: "0 0 30px #dbd5d490",
@@ -37,7 +37,7 @@ function ContentBox() {
         shadow="lg"
         p="xl"
         component="a"
-        href="/daily/Science-et-technologie"
+        href="/Science-et-technologie"
         sx={{
           "&:hover": {
             boxShadow: "0 0 30px #dbd5d490",
@@ -67,7 +67,7 @@ function ContentBox() {
         shadow="lg"
         p="xl"
         component="a"
-        href="/daily/Biologie"
+        href="/Biologie"
         sx={{
           "&:hover": {
             boxShadow: "0 0 30px #dbd5d490",
@@ -97,7 +97,7 @@ function ContentBox() {
         shadow="lg"
         p="xl"
         component="a"
-        href="/daily/Physique"
+        href="/Physique"
         sx={{
           "&:hover": {
             boxShadow: "0 0 30px #dbd5d490",
@@ -127,7 +127,7 @@ function ContentBox() {
         shadow="lg"
         p="xl"
         component="a"
-        href="/daily/Telecommunication"
+        href="/Telecommunication"
         sx={{
           "&:hover": {
             boxShadow: "0 0 30px #dbd5d490",
@@ -157,7 +157,7 @@ function ContentBox() {
         shadow="lg"
         p="xl"
         component="a"
-        href="/daily/Electronique"
+        href="/Electronique"
         sx={{
           "&:hover": {
             boxShadow: "0 0 30px #dbd5d490",
