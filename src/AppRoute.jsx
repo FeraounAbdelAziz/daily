@@ -1,6 +1,6 @@
 import React from "react";
 import { MantineProvider, ColorSchemeProvider } from "@mantine/core";
-import { Route, HashRouter, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import App from "./App";
 import { useHotkeys, useLocalStorage } from "@mantine/hooks";
 import Informatique from "./specialites/Informatique";
@@ -37,9 +37,9 @@ function AppRoute() {
         >
           <ToggleButton />
 
-          <HashRouter>
+        
             <Routes>
-              <Route exact path="/" element={<App />} />
+              <Route path="/" element={<App />} />
               <Route path="/Informatique" element={<Informatique />} />
               <Route
                 path="/Informatique/Algorithmique_1"
@@ -62,8 +62,6 @@ function AppRoute() {
               />
               <Route path="/Biologie" element={<Biologie />} />
             </Routes>
-          </HashRouter>
-
           <Footer />
         </MantineProvider>
       </ColorSchemeProvider>
