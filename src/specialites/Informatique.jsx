@@ -244,7 +244,7 @@ function Informatique() {
                 <Box
                   key={index}
                   component="a"
-                  href={`/daily/Informatique/${module}`}
+                  href={`/Informatique/${module}`}
                   sx={classes.sx}
                 >
                   {module}

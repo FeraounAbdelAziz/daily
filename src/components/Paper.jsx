@@ -7,7 +7,7 @@ function ContentBox() {
         shadow="lg"
         p="xl"
         component="a"
-        href="/daily/Informatique"
+        href="/Informatique"
         sx={{
           "&:hover": {
             boxShadow: "0 0 30px #dbd5d490",

@@ -27,7 +27,7 @@ function Algorithm() {
         <SimpleGrid cols={1} spacing="sm">
           <Box
             component="a"
-            href="/daily/Informatique/Algorithm/DownloadPage"
+            href="/Informatique/Algorithm/DownloadPage"
             sx={classes.sx}
           >
             <Title order={5}>tout les cours algorithm 1</Title>
