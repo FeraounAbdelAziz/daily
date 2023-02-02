@@ -39,10 +39,10 @@ function AppRoute() {
 
           <HashRouter>
             <Routes>
-              <Route path="/daily" element={<App />} />
-              <Route path="/daily/Informatique" element={<Informatique />} />
+              <Route index element={<App />} />
+              <Route path="/Informatique" element={<Informatique />} />
               <Route
-                path="/daily/Informatique/Algorithmique_1"
+                path="/Informatique/Algorithmique_1"
                 element={<Algorithm />}
               />
               <Route
