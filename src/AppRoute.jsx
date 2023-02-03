@@ -37,31 +37,30 @@ function AppRoute() {
         >
           <ToggleButton />
 
-        
-            <Routes>
-              <Route path="/" element={<App />} />
-              <Route path="/Informatique" element={<Informatique />} />
-              <Route
-                path="/Informatique/Algorithmique_1"
-                element={<Algorithm />}
-              />
-              <Route
-                path="/Informatique/Algorithm/DownloadPage"
-                element={<DownloadPage />}
-              />
+          <Routes>
+            <Route index element={<App />} />
+            <Route path="/Informatique" element={<Informatique />} />
+            <Route
+              path="/Informatique/Algorithmique_1"
+              element={<Algorithm />}
+            />
+            <Route
+              path="/Informatique/Algorithm/DownloadPage"
+              element={<DownloadPage />}
+            />
 
-              <Route
-                path="/Science-et-technologie"
-                element={<ScienceEtTechnologie />}
-              />
-              <Route path="/Physique" element={<Physique />} />
-              <Route path="/Electronique" element={<Electronique />} />
-              <Route
-                path="/Telecommunications"
-                element={<Telecommunications />}
-              />
-              <Route path="/Biologie" element={<Biologie />} />
-            </Routes>
+            <Route
+              path="/Science-et-technologie"
+              element={<ScienceEtTechnologie />}
+            />
+            <Route path="/Physique" element={<Physique />} />
+            <Route path="/Electronique" element={<Electronique />} />
+            <Route
+              path="/Telecommunications"
+              element={<Telecommunications />}
+            />
+            <Route path="/Biologie" element={<Biologie />} />
+          </Routes>
           <Footer />
         </MantineProvider>
       </ColorSchemeProvider>
