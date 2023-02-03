@@ -1,35 +1,33 @@
 import { Card, Image, Text } from "@mantine/core";
-import { NavLink } from "react-router-dom";
 
 function ContentBox() {
   return (
     <>
-      <NavLink to={"/Informatique"}>
-        <Card
-          shadow="lg"
-          p="xl"
-          component="a"
-          sx={{
-            "&:hover": {
-              boxShadow: "0 0 30px #dbd5d490",
-              transition: "all .5s",
-            },
-          }}
-        >
-          <Card.Section>
-            <Image src="assets/informatique.png" height={160} alt="No way!" />
-          </Card.Section>
+      <Card
+        shadow="lg"
+        p="xl"
+        component="a"
+        href="/Informatique"
+        sx={{
+          "&:hover": {
+            boxShadow: "0 0 30px #dbd5d490",
+            transition: "all .5s",
+          },
+        }}
+      >
+        <Card.Section>
+          <Image src="assets/informatique.png" height={160} alt="No way!" />
+        </Card.Section>
 
-          <Text weight={500} size="lg" mt="md">
-            Informatique
-          </Text>
+        <Text weight={500} size="lg" mt="md">
+          Informatique
+        </Text>
 
-          <Text mt="xs" color="dimmed" size="sm">
-            Maths et Informatique, Génie logiciel, Intelligence
-            artificielle,Réseaux et systèmes distribués, Multimedia...
-          </Text>
-        </Card>
-      </NavLink>
+        <Text mt="xs" color="dimmed" size="sm">
+          Maths et Informatique, Génie logiciel, Intelligence
+          artificielle,Réseaux et systèmes distribués, Multimedia...
+        </Text>
+      </Card>
 
       <Card
         shadow="lg"
@@ -45,7 +43,7 @@ function ContentBox() {
       >
         <Card.Section>
           <Image
-            src="./assets/Science et technology.jpg"
+            src="assets/Science et technology.jpg"
             height={160}
             alt="No way!"
           />
@@ -74,7 +72,7 @@ function ContentBox() {
         }}
       >
         <Card.Section>
-          <Image src="./assets/Biologie.jpg" height={160} alt="No way!" />
+          <Image src="assets/Biologie.jpg" height={160} alt="No way!" />
         </Card.Section>
 
         <Text weight={500} size="lg" mt="md">
@@ -100,7 +98,7 @@ function ContentBox() {
         }}
       >
         <Card.Section>
-          <Image src="./assets/physique.png" height={160} alt="No way!" />
+          <Image src="assets/physique.png" height={160} alt="No way!" />
         </Card.Section>
 
         <Text weight={500} size="lg" mt="md">
@@ -126,7 +124,7 @@ function ContentBox() {
         }}
       >
         <Card.Section>
-          <Image src="./assets/telecom.jpg" height={160} alt="No way!" />
+          <Image src="assets/telecom.jpg" height={160} alt="No way!" />
         </Card.Section>
 
         <Text weight={500} size="lg" mt="md">
@@ -152,7 +150,7 @@ function ContentBox() {
         }}
       >
         <Card.Section>
-          <Image src="./assets/electronique.png" height={160} alt="No way!" />
+          <Image src="assets/electronique.png" height={160} alt="No way!" />
         </Card.Section>
 
         <Text weight={500} size="lg" mt="md">

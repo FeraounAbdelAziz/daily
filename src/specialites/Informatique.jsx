@@ -10,7 +10,7 @@ import {
 } from "@mantine/core";
 import { IconArrowNarrowLeft, IconSearch } from "@tabler/icons";
 import React, { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useStyles } from "../Theme";
 
 function Informatique() {
@@ -241,11 +241,14 @@ function Informatique() {
             })
             .map((module, index) => {
               return (
-                <NavLink to={`/Informatique/${module}`}>
-                  <Box key={index} component="a" sx={classes.sx}>
-                    {module}
-                  </Box>
-                </NavLink>
+                <Box
+                  key={index}
+                  component="a"
+                  sx={classes.sx}
+                  href={`/Informatique/${module}`}
+                >
+                  {module}
+                </Box>
               );
             })}
         </SimpleGrid>
